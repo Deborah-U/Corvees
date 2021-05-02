@@ -19,6 +19,7 @@ Staying home for almost a year has opened our eyes to how lazy and irresponsible
 ## 🔨 How we built it
 
 👩‍🎨 **Designing**: We first brainstormed ideas and made a prototype on Figma. 
+
 👩‍💻**Coding**: We then used Swift and XCode to bring our prototype alive.
 
 ## 🧠 Challenges we ran into
