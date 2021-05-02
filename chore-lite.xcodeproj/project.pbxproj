@@ -11,13 +11,13 @@
 		D8AE6DAD263DE377004469F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DAC263DE377004469F1 /* ContentView.swift */; };
 		D8AE6DB2263DE377004469F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AE6DB1263DE377004469F1 /* Preview Assets.xcassets */; };
 		D8AE6DBB263DE481004469F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DBA263DE480004469F1 /* HomeView.swift */; };
-		D8AE6DBE263DE524004469F1 /* CleanKitchenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DBD263DE524004469F1 /* CleanKitchenView.swift */; };
 		D8AE6DC1263DE54C004469F1 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DC0263DE54C004469F1 /* House.swift */; };
 		D8AE6DC5263DE89A004469F1 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DC4263DE89A004469F1 /* InventoryView.swift */; };
 		D8AE6DC9263DE8F0004469F1 /* RoomiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DC8263DE8F0004469F1 /* RoomiesView.swift */; };
 		D8AE6DCC263DE909004469F1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DCB263DE909004469F1 /* ProfileView.swift */; };
 		D8AE6DD4263DEBC5004469F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6DD3263DEBC5004469F1 /* Constants.swift */; };
 		D8AE6DFE263DF5DF004469F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AE6DFD263DF5DF004469F1 /* Assets.xcassets */; };
+		D8AE6E01263E562C004469F1 /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE6E00263E562C004469F1 /* NewEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		D8AE6DB1263DE377004469F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8AE6DB3263DE377004469F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8AE6DBA263DE480004469F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		D8AE6DBD263DE524004469F1 /* CleanKitchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanKitchenView.swift; sourceTree = "<group>"; };
 		D8AE6DC0263DE54C004469F1 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		D8AE6DC4263DE89A004469F1 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 		D8AE6DC8263DE8F0004469F1 /* RoomiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomiesView.swift; sourceTree = "<group>"; };
 		D8AE6DCB263DE909004469F1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D8AE6DD3263DEBC5004469F1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D8AE6DFD263DF5DF004469F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8AE6E00263E562C004469F1 /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 			children = (
 				D8AE6DBA263DE480004469F1 /* HomeView.swift */,
 				D8AE6DC4263DE89A004469F1 /* InventoryView.swift */,
-				D8AE6DBD263DE524004469F1 /* CleanKitchenView.swift */,
+				D8AE6E00263E562C004469F1 /* NewEntryView.swift */,
 				D8AE6DCB263DE909004469F1 /* ProfileView.swift */,
 				D8AE6DC8263DE8F0004469F1 /* RoomiesView.swift */,
 				D8AE6DAC263DE377004469F1 /* ContentView.swift */,
@@ -170,7 +170,7 @@
 				D8AE6DCC263DE909004469F1 /* ProfileView.swift in Sources */,
 				D8AE6DC9263DE8F0004469F1 /* RoomiesView.swift in Sources */,
 				D8AE6DBB263DE481004469F1 /* HomeView.swift in Sources */,
-				D8AE6DBE263DE524004469F1 /* CleanKitchenView.swift in Sources */,
+				D8AE6E01263E562C004469F1 /* NewEntryView.swift in Sources */,
 				D8AE6DAD263DE377004469F1 /* ContentView.swift in Sources */,
 				D8AE6DC5263DE89A004469F1 /* InventoryView.swift in Sources */,
 				D8AE6DAB263DE377004469F1 /* chore_liteApp.swift in Sources */,

@@ -8,44 +8,64 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var start: Bool = false
     init() {
-            UITabBar.appearance().barTintColor = UIColor.white
-//            UITabBar.appearance().tintColor = .white
-        }
+        UITabBar.appearance().barTintColor = UIColor.white
+    }
     
     var body: some View {
-        TabView {
-            HomeView()
-                .tabItem {
-                    Image("home")
-                    Text("home")
+        if self.start {
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Image("home")
+                        Text("home")
+                    }
+                InventoryView()
+                    .tabItem {
+                        Image("inventory")
+                        Text("inventory")
+                    }
+                NewEntryView()
+                    .tabItem {
+                        Image("plus")
+                            .font(.title)
+                            .foregroundColor(Color(.systemPink))
+    //                        .resizable()
+    //                        .frame(width: CGFloat.screenWidth * 0.07,
+    //                               height: CGFloat.screenWidth * 0.07)
+                        Text("add")
+                    }
+                RoomiesView()
+                    .tabItem {
+                        Image("roomies")
+                        Text("roomies")
+                    }
+                ProfileView()
+                    .tabItem {
+                        Image("profile")
+                        Text("profile")
+                    }
+            }
+            .accentColor(Color.tabPurple)
+        } else {
+            VStack {
+                Image("desk")
+                Image("chore_lite")
+                    .padding()
+                Image("slogan")
+                    .padding()
+                ZStack {
+                    Image("button")
+                    Image("get_started")
                 }
-            InventoryView()
-                .tabItem {
-                    Image("inventory")
-                    Text("inventory")
+                .onTapGesture {
+                    start = true
                 }
-            CleanKitchenView()
-                .tabItem {
-                    Image("plus")
-                        .font(.title)
-                        .foregroundColor(Color(.systemPink))
-//                        .resizable()
-//                        .frame(width: CGFloat.screenWidth * 0.07,
-//                               height: CGFloat.screenWidth * 0.07)
-                }
-            RoomiesView()
-                .tabItem {
-                    Image("roomies")
-                    Text("roomies")
-                }
-            ProfileView()
-                .tabItem {
-                    Image("profile")
-                    Text("profile")
-                }
+                .padding()
+                Spacer()
+            }
         }
-        .accentColor(Color.myPink)
     }
 }
 
