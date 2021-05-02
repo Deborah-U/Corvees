@@ -16,7 +16,8 @@ Chore-Lite:
 * Monitors household inventory
 * Can delegate roommates/siblings to restock items that are running low or gone.
 
-Sample graphics:
+## Sample Graphics
+
 <img src="README/home.png" width="250"> <img src="README/add.png" width="250"> <img src="README/chore.png" width="250"> <img src="README/soap.png" width="250"> <img src="README/eli.png" width="250">
 
 [SLIDESHOW](https://docs.google.com/presentation/d/1jZHP1-VY_3Q425FkpKQbfCBqB5y70GuOgDL8Er_Ir-c/edit#slide=id.p)
